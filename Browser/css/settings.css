@@ -1,0 +1,89 @@
+html, body, #root{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    margin: 0px;
+    border: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#root{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    color: #000000;
+    flex: 1;
+}
+
+#panel-wrapper{
+    display: flex;
+    position: relative;
+    flex: 0 1 auto;
+    min-width: 350px;
+    flex-basis: 350px;
+}
+
+#panel{
+    display: flex;
+    position: relative;
+    flex: 0 1 auto;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 25px 0px 50px;
+    overflow-y: auto;
+    border-inline-end: 1px solid #BBBBBB;
+}
+
+#search-wrapper{
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#nav-title{
+    text-align: start;
+    font-weight: 600;
+}
+
+.nav-item{
+    position: relative;
+    min-height: 32px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    background-color: #DDDDDD;
+}
+
+.nav-text{
+    text-align: start;
+    vertical-align: middle;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+/* i got half of this from chrome settings menu i hope it works */
+#main-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    min-width: 250px;
+    padding-block-end: 18px;
+    padding-inline-end: 50px;
+    padding-inline-start: 50px;
+    overflow-y: auto;
+}

@@ -1,0 +1,1 @@
+pyinstaller --onedir -w --icon="icons\app.jpg" -n="Browser by AksLolCoding" "main.py"

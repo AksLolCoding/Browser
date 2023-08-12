@@ -1,0 +1,112 @@
+QWidget{
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+QTabWidget::pane{
+    border: 0px;
+    position: absolute;
+}
+
+QTabBar{
+    background-color: #DDDDDD;
+    border: 0px;
+}
+
+QLabel{
+    background-color: #F7F7F7;
+    padding: 5px;
+    margin-right: 2px;
+    color: #000000;
+    border: 0px;
+}
+
+QLabel:hover{
+    background-color: #EEEEEE;
+}
+
+QToolButton{
+    background-color: transparent;
+    padding: 2px;
+    margin-right: 2px;
+    color: #000000;
+    border: 0px;
+}
+
+QToolButton:hover{
+    background-color: #DDDDDD;
+}
+
+QTabWidget > QToolButton{
+    border: 0px;
+    background-color: #DDDDDD;
+}
+
+QTabWidget > QToolButton:hover{
+    background-color: #BBBBBB;
+}
+
+QTabBar::tab{
+    background-color: #DDDDDD;
+    padding: 5px;
+    margin-right: 2px;
+    color: #000000;
+    border: 0px;
+}
+
+QTabBar::tab:hover{
+    background-color: #EEEEEE;
+}
+
+QTabBar::tab:selected{
+    background-color: #F7F7F7;
+}
+
+QTabBar::close-button{
+}
+
+QLineEdit{
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 12px;
+    margin: 3px 3px 3px 3px;
+}
+
+QLineEdit:hover{
+    border: 1px solid #DDDDDD;
+}
+
+QLineEdit:focus{
+    border: 1px solid #99BBEF;
+    color: #000000
+}
+
+QPushButton{
+    background: #EEEEEE;
+    background-color: #F7F7F7;
+    padding: 5px;
+}
+
+QMenu{
+    border: 1px solid #F7F7F7;
+}
+
+QMenu::separator{
+    background-color: #DDDDDD;
+    height:0.1em;
+}
+
+QMenu::item{
+    background-color: #F7F7F7;
+}
+
+QMenu::item:disabled{
+    /*background-color: #F7F7F7;*/
+    color: rgba(0, 0, 0, 0.5); /* pyqt5 doesnt support 8-digit hex codes */
+}
+
+QMenu::item:selected{
+    background-color: #EEEEEE;
+}
